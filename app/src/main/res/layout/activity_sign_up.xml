@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:id="@+id/tvSignupTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Sign Up"
+        android:textColor="#000000"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/tvSignupMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSignupTitle"
+        android:layout_marginTop="10dp"
+        android:text="Let's start saving!"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvSignupUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSignupMessage"
+        android:layout_marginTop="40dp"
+        android:text="Username"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etSignupUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSignupUsername"
+        android:hint="username" />
+
+    <TextView
+        android:id="@+id/tvSignupEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etSignupUsername"
+        android:layout_marginTop="10dp"
+        android:text="Email"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etSignupEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSignupEmail"
+        android:hint="example@example.com" />
+
+    <TextView
+        android:id="@+id/tvSignupPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etSignupEmail"
+        android:layout_marginTop="10dp"
+        android:text="Password"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilPassword"
+        app:passwordToggleEnabled="true"
+        android:layout_below="@id/tvSignupPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/etSignupPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvSignupPassword"
+            android:hint="password"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tvSignupPasswordConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tilPassword"
+        android:layout_marginTop="10dp"
+        android:text="Confirm Password"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilPasswordConfirm"
+        app:passwordToggleEnabled="true"
+        android:layout_below="@id/tvSignupPasswordConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/etSignupPasswordConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvSignupPasswordConfirm"
+            android:hint="password"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tilPasswordConfirm"
+        android:layout_marginTop="10dp"
+        android:ellipsize="none"
+        android:text="Sign Up" />
+
+    <TextView
+        android:id="@+id/tvSignInLinkPart1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSignup"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="40dp"
+        android:text="@string/sign_in_link_part_1"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvSignInLinkPart2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSignup"
+        android:layout_toRightOf="@+id/tvSignInLinkPart1"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="5dp"
+        android:text="@string/sign_in_link_part_2"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <!-- This code block is experimental do not delete! See Angie or
+     https://guides.codepath.org/android/Working-with-the-EditText. -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/username_text_input_layout"
+        android:layout_below="@+id/tvSignInLinkPart1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Do not delete this - see Angie for why"
+            android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</RelativeLayout>
