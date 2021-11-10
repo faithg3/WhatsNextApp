@@ -23,7 +23,6 @@ public class SignUpActivity extends AppCompatActivity {
     TextView tvSignInLinkPart2;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,7 +32,7 @@ public class SignUpActivity extends AppCompatActivity {
         etSignupEmail = findViewById(R.id.etSignupEmail);
         etSignupPassword = findViewById(R.id.etSignupPassword);
         etSignupPasswordConfirm = findViewById(R.id.etSignupPasswordConfirm);
-        btnSignup= findViewById(R.id.btnSignup);
+        btnSignup = findViewById(R.id.btnSignup);
         tvSignInLinkPart2 = findViewById(R.id.tvSignInLinkPart2);
 
         btnSignup.setOnClickListener(new View.OnClickListener() {
@@ -71,7 +70,8 @@ public class SignUpActivity extends AppCompatActivity {
         });
         */
     }
-    \private void signupUser(String username, String password) {
+
+    private void signupUser(String username, String password) {
         Log.i(TAG, "Attempting to signUp user" + username);
         // Create the ParseUser
         ParseUser user = new ParseUser();
@@ -127,4 +127,5 @@ public class SignUpActivity extends AppCompatActivity {
         startActivity(i);
         finish(); // Finish SignUpActivity so back button doesn't lead to last SignUpActivity session
 
+    }
 }

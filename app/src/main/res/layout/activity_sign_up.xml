@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/tvSignupTitle"
         android:layout_marginTop="10dp"
-        android:text="Let's start saving!"
+        android:text="Welcome to What's Next!"
         android:textSize="20sp" />
 
     <TextView
@@ -119,15 +119,6 @@
         android:ellipsize="none"
         android:text="Sign Up" />
 
-    <TextView
-        android:id="@+id/tvSignInLinkPart1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/btnSignup"
-        android:layout_marginTop="20dp"
-        android:layout_marginStart="40dp"
-        android:text="@string/sign_in_link_part_1"
-        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/tvSignInLinkPart2"
@@ -137,22 +128,8 @@
         android:layout_toRightOf="@+id/tvSignInLinkPart1"
         android:layout_marginTop="20dp"
         android:layout_marginStart="5dp"
-        android:text="@string/sign_in_link_part_2"
         android:textColor="#000000"
         android:textSize="20sp" />
 
-    <!-- This code block is experimental do not delete! See Angie or
-     https://guides.codepath.org/android/Working-with-the-EditText. -->
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/username_text_input_layout"
-        android:layout_below="@+id/tvSignInLinkPart1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Do not delete this - see Angie for why"
-            android:inputType="text" />
-    </com.google.android.material.textfield.TextInputLayout>
 
 </RelativeLayout>
