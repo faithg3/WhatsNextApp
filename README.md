@@ -1,14 +1,14 @@
 # *WhatsNext*
 
 ### Table of Contents
-1. [Description](#Problem Statement)
-2. [Features](#Feature List)
+1. [Description](#Description)
+2. [Features](#Features)
 3. [Demo](#Demo) 
 
-## Problem Statement
+## Description
 This application was made to save users time spent while searching for a movie on various movie streaming services. The goal of the app is to allow the user to enter the streaming services they currently have and the app will bring together a recommendation list for them from services based on an input such as genre.
 
-## Feature List
+## Features
 Feature List:
 * Home Page
   * This will be the first page that opens up when a user clicks on the app.
