@@ -6,7 +6,7 @@
 3. [Demo](#Demo) 
 
 ## Description
-An app for Android that recommends movies based on genre preferences and streaming platforms owned. A great solution for when you can't decide what to watch!
+An app for Android that recommends movies based on genre preferences and streaming platforms owned. A great solution for when you can't decide what to watch! This app was created as a semester project for an Object-Oriented Programming Course at The University of Texas at Arlington by a team of 5.
 
 ## Features
 Feature List:
