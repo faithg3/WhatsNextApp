@@ -1,8 +1,8 @@
 # *WhatsNext*
 
 ### Table of Contents
-1. [Description](#Description)
-2. [Feature List](#Feature List)
+1. [Description](#Problem Statement)
+2. [Features](#Feature List)
 3. [Demo](#Demo) 
 
 ## Problem Statement
