@@ -3,7 +3,8 @@
 ### Table of Contents
 1. [Description](#Description)
 2. [Features](#Features)
-3. [Demo](#Demo) 
+3. [Demo](#Demo)
+4. [Documentation](#Documentation)
 
 ## Description
 An app for Android that recommends movies based on genre preferences and streaming platforms owned. A great solution for when you can't decide what to watch! This app was created as a semester project by a team of 5 for an Object-Oriented Programming Course at The University of Texas at Arlington.
@@ -37,5 +38,5 @@ Feature List:
 ## Demo
 [Link to video](https://www.youtube.com/watch?v=jMr8g_h_1uU)
 
-## Project Notebook
-[Link to Drive](https://docs.google.com/document/d/1dlc-fQwHtwHokY-w5_Wim5K88AdmmiMIAx_IZJPxDlA/edit?usp=sharing)
+## Documentation
+Our Project Notebook: [Link to Drive](https://docs.google.com/document/d/1dlc-fQwHtwHokY-w5_Wim5K88AdmmiMIAx_IZJPxDlA/edit?usp=sharing)
