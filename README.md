@@ -1,4 +1,4 @@
-# *Cubical Chaos*
+# *WhatsNext*
 
 ### Table of Contents
 1. [Description](#Description)
