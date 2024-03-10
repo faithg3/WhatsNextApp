@@ -6,7 +6,7 @@
 3. [Demo](#Demo) 
 
 ## Description
-This application was made to save users time spent while searching for a movie on various movie streaming services. The goal of the app is to allow the user to enter the streaming services they currently have and the app will bring together a recommendation list for them from services based on an input such as genre.
+An app for Android that recommends movies based on genre preferences and streaming platforms owned. A great solution for when you can't decide what to watch!
 
 ## Features
 Feature List:
